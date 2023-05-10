@@ -52,7 +52,6 @@ def test_with_fixture(company: Company) -> None:
     "company_name",
     ["TikTok", "Instagram", "Twitch"],
     ids=["TikTok_TEST", "Instagram_TEST", "Twitch_TEST"],
-
 )
 def test_parametrized(company_name: str) -> None:
     print(f"\nTest with {company_name}")
