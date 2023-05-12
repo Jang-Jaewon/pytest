@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from api.coronavstech.companies.models import Company
+from .models import Company
 
 
 class CompanySerializer(serializers.ModelSerializer):
